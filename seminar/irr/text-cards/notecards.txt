@@ -1,0 +1,39 @@
+Information Label: Background
+Notes:
+The American Diabeties Association (ADA) looked into the reasons for insulin price increases, analyzing the supply chain of insulin. "The average list price of insulin has skyrocketed in recent years, nearly tripling between 2002 and 2013." For the paper, the ADA found that "increased transparency throughout the insulin supply chain and a number of other interventions as important steps toward developing viable, long-term solutions to improve insulin access and affordability." 
+Graphic: https://mpattok.github.io/seminar/irr/graphics/supply-chain.png
+URL: https://care.diabetesjournals.org/content/diacare/41/6/1299.full.pdf
+Bibliography Entry: William T. Cefalu, et al. "Insulin Access and Affordability Working Group: Conclusions and Recommendations." American Diabeties Association, 2018, vol 41, p 1299-1311.
+
+
+Information Label: Background
+Notes:
+
+Graphic: 
+URL: 
+Bibliography Entry: 
+
+
+
+Information Label: Background
+Notes:
+
+Graphic: 
+URL: 
+Bibliography Entry: 
+
+
+Information Label: Background
+Notes:
+
+Graphic: 
+URL: 
+Bibliography Entry: 
+
+
+Information Label: Background
+Notes:
+
+Graphic: 
+URL: 
+Bibliography Entry: 
