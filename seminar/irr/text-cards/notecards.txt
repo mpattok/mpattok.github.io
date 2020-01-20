@@ -1,37 +1,36 @@
-Information Label: Background
+Information Label: Insulin Biosimilars (Mostly Economic)
 Notes:
-The American Diabeties Association (ADA) looked into the reasons for insulin price increases, analyzing the supply chain of insulin. "The average list price of insulin has skyrocketed in recent years, nearly tripling between 2002 and 2013." For the paper, the ADA found that "increased transparency throughout the insulin supply chain and a number of other interventions as important steps toward developing viable, long-term solutions to improve insulin access and affordability." 
+"It is estimated that half of these people [who need insulin] do not have reliable, affordable access to  the  medicine" insulin. The British Medical Journal (BMJ) looked into the lack of competition in the insulin market, as "[t]hree originator companies control 96% of the global insulin market, and few biosimilar insulins are available." More specifically, they "estimated the price reductions that could be achieved if numerous biosimilar manufacturers entered the insulin market." For their estimated comparison, the BMJ used data from an online customs database on the price of the active pharmaceutical ingredient (API). The price of biosimilars was estimated by summing "excipients, formulation, transport, development and regulatory costs, and a profit margin." Biosimilars would serve patients as well as regular human insulin (RHI), as "[a]t the molecular level, insulin analogues are different from human insulin only in a few amino acids." In terms of price, biosimilars could be sold "at prices of US$72 per year or less for human insulin and US$133 per year or less for insulin analogues." That is in comparison to RHI prices reaching above $350, but "[i]n order for  this  to  happen,  multiple  competitors  would  likely  need  to  enter  the  market." Ultimately, the study concludes that the main reason for the inaffordability of insulin is the oligopoly of the market.
+URL: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6157569/pdf/bmjgh-2018-000850.pdf
+Bibliography Entry: Gotham, Dzintars, et al. "Production Costs and Potential Prices for Biosimilars of Human Insulin and Insulin Analogues." BMJ Gloabl Health, 2018. Accessed 14 Jan 2020.
+
+
+
+Information Label: Background, Mostly Economic
+Notes:
+The American Diabeties Association (ADA) looked into the reasons for insulin price increases, analyzing the supply chain of insulin. "The average list price of insulin has skyrocketed in recent years, nearly tripling between 2002 and 2013." Analyzing the supply chain of insulin, the ADA discovered that "[w]hile the medication itself takes a rather direct path from manufacturer to whole-saler to pharmacy to patient, the flow of money is far less direct and transparent." Manufacturers sell the insulin to wholesalers, but also pay rebates to pharmacy benefit managers (PBMs), who are paid by manufacturers to negotiate price with pharmacies and insurance companies. As a result, there is a gap between list price, what the drug is sold for, and net price, the profit that the manufacturer actually makes. Additionally, "the net price to the insulin manu-facturers has grown at a slower rate, or has gone down, compared to list prices." Despite raising the list price of insulin, manufacturers are seeinf diminishing returns. Thus, they raise the list price to accomodate for this loss in profit, but eventually the much lower net price starts hurting them again, and they raise their prices again. One possible driver of the growing gap betwwen list price and net price is that "rebates have grown rapidly in recent years-- representing more than 40% of U.S. gross sales in some cases." Ultimately, the ADA found that "increased transparency throughout the insulin supply chain and a number of other interventions [were] important steps toward developing viable, long-term solutions to improve insulin access and affordability."
 Graphic: https://mpattok.github.io/seminar/irr/graphics/supply-chain.png
 URL: https://care.diabetesjournals.org/content/diacare/41/6/1299.full.pdf
-Bibliography Entry: William T. Cefalu, et al. "Insulin Access and Affordability Working Group: Conclusions and Recommendations." American Diabeties Association, 2018, vol 41, p 1299-1311.
+Bibliography Entry: Cefalu, William T, et al. "Insulin Access and Affordability Working Group: Conclusions and Recommendations." American Diabeties Association, 2018, vol 41, p 1299-1311. Accessed 15 Jan 2020.
 
 
-Information Label: Background
+
+Information Label: Background, Political Solutions
 Notes:
-
-Graphic: 
-URL: 
-Bibliography Entry: 
-
+The Biomedical Journal of Scientific and Technical Research (BJSTR) wrote a commentary of the ADA's article on the insulin market. The BJSTR noted the ADA's analysis of the "lack of transparency in the insulin supply chain" and went further, stating that "[p]harmacists are uniquely situated in community, ambulatory care and institutional settings to guide patients and other healthcare providers on various resources available for patients with diabetes to obtain insulin at no cost to reduced cost based on patient’s health plan, income level and Medicare Part D coverage gap and uninsured patients." The BJSTR compiled two tables of resources that pharmacists could provide to patients. The BJSTR also mentioned a 2017 Yale survey that found that "compared with other patients, [those who rationed insulin] were three times more likely to have higher HbA1C levels over 9% controlling for age, gender, duration of diabetes, and income (P=0.03)," and that "[t]he problem was greatest among people making less than $100,000 per year and was not associated with race or the type of diabetes." The BJSTR concluded that, while patient education can help patients in the short term, "[t]he long-term solution relies on multiple approaches[,] including increase[ed] transparency, promoting legislative change in regard to negotiating prices, [and] pushing incentives for generic forms."
+URL: https://pdfs.semanticscholar.org/26ac/449a9530a06a4c0c8c85f5ac2af1de8e6199.pdf
+Bibliography Entry: Hyma P Gogineni1, Hyma P, and Revant V Gogineni. "Increasing Insulin Prices – Role of Pharmacists in Assisting Patients with Diabetes to Enhance Access." Biomedical Journal of Scientific and Technical Research, 2018. Accessed 16 Jan 2020.
 
 
-Information Label: Background
+Information Label: Political Solutionsm (Transparency Laws)
 Notes:
-
-Graphic: 
-URL: 
-Bibliography Entry: 
-
-
-Information Label: Background
-Notes:
-
-Graphic: 
-URL: 
-Bibliography Entry: 
+The Lancet analyzed ways in which access to insulin could be made easier for diabetics. The paper mentioned that "[i]n one study, about a third of US patients who stopped taking insulin and had diabetic ketoacidosis reported that they did not have enough money to buy  insulin," implying that the price of insulin is a driving factor in patients not having access to it. The paper also mentioned how the ADA's article on insulin prices "called on Congress to examine insulin costs across the entire supply chain." Leading manufacturers suggest that the affordability problem could be solved with "manufacturer-run programmes that provide co-pay assistance or, in some cases, free insulin," but such programs can't be used by those on Medicaid or Medicare and often steer patients towards the more expensive options, as ultimately the manufacturer's goal is to make a profit. The paper proposes that price transparency could help patients and doctors better understand prices, and states that such transparency could be achieved with "[d]rug price transparency and  accountability laws[, which] have been proposed in numerous states, including one enacted in Vermont in 2016," or the "FAIR (Fair Accountability and Innovative Research) Drug Pricing Act, was proposed in Congress." Such laws would require manufacturers to justify price increases to the Department of Health and Human Services or a state's attorney general. The paper goes on the say that such transparency could lead to further reforms, including, for example, "if rebates were substantial contributors to insulin price changes, policy makers could enact measures to require that larger proportions of those rebates be passed to individual patients or payers." The paper noted that "[a]n important limitation of transparency laws is that they are unlikely to substantially reduce insulin prices in the   USA by themselves." It is therefore important that transparency laws are not seen as the end of the problems with insulin prices, but rather as the gateway to solutions.
+Graphic: https://mpattok.github.io/seminar/irr/graphics/us-spending.png
+URL: https://www.who.int/selection_medicines/committees/expert/21/applications/Strategies_improve_insulin_affordability-Lancet2017.pdf
+Bibliography Entry: Luo, Jing, et al. "Strategies to Improve the Affordability of Insulin in the USA." The Lancet Diabetes and Endocrinology, 2017. Accessed 17 Jan 2020.
 
 
-Information Label: Background
+Information Label: 
 Notes:
 
 Graphic: 
