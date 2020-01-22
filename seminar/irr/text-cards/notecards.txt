@@ -22,12 +22,24 @@ URL: https://pdfs.semanticscholar.org/26ac/449a9530a06a4c0c8c85f5ac2af1de8e6199.
 Bibliography Entry: Hyma P Gogineni1, Hyma P, and Revant V Gogineni. "Increasing Insulin Prices – Role of Pharmacists in Assisting Patients with Diabetes to Enhance Access." Biomedical Journal of Scientific and Technical Research, 2018. Accessed 16 Jan 2020.
 
 
+
 Information Label: Political Solutionsm (Transparency Laws)
 Notes:
 The Lancet analyzed ways in which access to insulin could be made easier for diabetics. The paper mentioned that "[i]n one study, about a third of US patients who stopped taking insulin and had diabetic ketoacidosis reported that they did not have enough money to buy  insulin," implying that the price of insulin is a driving factor in patients not having access to it. The paper also mentioned how the ADA's article on insulin prices "called on Congress to examine insulin costs across the entire supply chain." Leading manufacturers suggest that the affordability problem could be solved with "manufacturer-run programmes that provide co-pay assistance or, in some cases, free insulin," but such programs can't be used by those on Medicaid or Medicare and often steer patients towards the more expensive options, as ultimately the manufacturer's goal is to make a profit. The paper proposes that price transparency could help patients and doctors better understand prices, and states that such transparency could be achieved with "[d]rug price transparency and  accountability laws[, which] have been proposed in numerous states, including one enacted in Vermont in 2016," or the "FAIR (Fair Accountability and Innovative Research) Drug Pricing Act, was proposed in Congress." Such laws would require manufacturers to justify price increases to the Department of Health and Human Services or a state's attorney general. The paper goes on the say that such transparency could lead to further reforms, including, for example, "if rebates were substantial contributors to insulin price changes, policy makers could enact measures to require that larger proportions of those rebates be passed to individual patients or payers." The paper noted that "[a]n important limitation of transparency laws is that they are unlikely to substantially reduce insulin prices in the   USA by themselves." It is therefore important that transparency laws are not seen as the end of the problems with insulin prices, but rather as the gateway to solutions.
 Graphic: https://mpattok.github.io/seminar/irr/graphics/us-spending.png
 URL: https://www.who.int/selection_medicines/committees/expert/21/applications/Strategies_improve_insulin_affordability-Lancet2017.pdf
 Bibliography Entry: Luo, Jing, et al. "Strategies to Improve the Affordability of Insulin in the USA." The Lancet Diabetes and Endocrinology, 2017. Accessed 17 Jan 2020.
+
+
+
+Information Label: Transparency Laws
+Notes:
+
+Graphic: https://mpattok.github.io/seminar/irr/graphics/transparency-laws-table.png
+URL: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2751892
+Bibliography Entry: Ryan, Martha S, and Nerraj Sood. "Analysis of State-Level Drug Pricing Transparency Laws
+in the United States." Journal of the American Medical Association, 2019. Accessed 22 Jan 2020.
+
 
 
 Information Label: 
