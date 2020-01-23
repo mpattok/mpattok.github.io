@@ -8,7 +8,7 @@ Bibliography Entry: Gotham, Dzintars, et al. "Production Costs and Potential Pri
 
 Information Label: Background, Mostly Economic
 Notes:
-The American Diabeties Association (ADA) looked into the reasons for insulin price increases, analyzing the supply chain of insulin. "The average list price of insulin has skyrocketed in recent years, nearly tripling between 2002 and 2013." Analyzing the supply chain of insulin, the ADA discovered that "[w]hile the medication itself takes a rather direct path from manufacturer to whole-saler to pharmacy to patient, the flow of money is far less direct and transparent." Manufacturers sell the insulin to wholesalers, but also pay rebates to pharmacy benefit managers (PBMs), who are paid by manufacturers to negotiate price with pharmacies and insurance companies. As a result, there is a gap between list price, what the drug is sold for, and net price, the profit that the manufacturer actually makes. Additionally, "the net price to the insulin manu-facturers has grown at a slower rate, or has gone down, compared to list prices." Despite raising the list price of insulin, manufacturers are seeinf diminishing returns. Thus, they raise the list price to accomodate for this loss in profit, but eventually the much lower net price starts hurting them again, and they raise their prices again. One possible driver of the growing gap betwwen list price and net price is that "rebates have grown rapidly in recent years-- representing more than 40% of U.S. gross sales in some cases." Ultimately, the ADA found that "increased transparency throughout the insulin supply chain and a number of other interventions [were] important steps toward developing viable, long-term solutions to improve insulin access and affordability."
+The American Diabeties Association (ADA) looked into the reasons for insulin price increases, analyzing the supply chain of insulin. "The average list price of insulin has skyrocketed in recent years, nearly tripling between 2002 and 2013." Analyzing the supply chain of insulin, the ADA discovered that "[w]hile the medication itself takes a rather direct path from manufacturer to whole-saler to pharmacy to patient, the flow of money is far less direct and transparent." Manufacturers sell the insulin to wholesalers, but also pay rebates to pharmacy benefit managers (PBMs), who are paid by manufacturers to negotiate price with pharmacies and insurance companies. As a result, there is a gap between list price, what the drug is sold for, and net price, the price the manufacturer sells it for (list price minus discounts). Additionally, "the net price to the insulin manu-facturers has grown at a slower rate, or has gone down, compared to list prices." Despite raising the list price of insulin, manufacturers are seeinf diminishing returns. Thus, they raise the list price to accomodate for this loss in profit, but eventually the much lower net price starts hurting them again, and they raise their prices again. One possible driver of the growing gap betwwen list price and net price is that "rebates have grown rapidly in recent years-- representing more than 40% of U.S. gross sales in some cases." Ultimately, the ADA found that "increased transparency throughout the insulin supply chain and a number of other interventions [were] important steps toward developing viable, long-term solutions to improve insulin access and affordability."
 Graphic: https://mpattok.github.io/seminar/irr/graphics/supply-chain.png
 URL: https://care.diabetesjournals.org/content/diacare/41/6/1299.full.pdf
 Bibliography Entry: Cefalu, William T, et al. "Insulin Access and Affordability Working Group: Conclusions and Recommendations." American Diabeties Association, 2018, vol 41, p 1299-1311. Accessed 15 Jan 2020.
@@ -34,11 +34,31 @@ Bibliography Entry: Luo, Jing, et al. "Strategies to Improve the Affordability o
 
 Information Label: Transparency Laws
 Notes:
-
+Due to the lack of transparency in the pharmaceutical market, "few people outside of the pharmaceutical industry know which
+supply chain participants are making excess profits and where to target policy solutions." This study searched the National Conference of State Legislatures prescription drug database for transparency laws. The study defined informative laws as those which showed "real transaction prices" from parts of the supply chain, information that has been previously unavailable. "Of 166 drug pricing laws identified, 35 laws passed in 22 states included a transparency component, but only 7 laws passed in 6 states were deemed informative." Vermont required insurers to disclose net price, Maine required manufacturers to disclose net price, Oregon and Nevada required manufacturers to disclose profits, and Connecticut, Louisiana, and Nevada required PBMs to disclose rebates in aggregate, but not at the individual drug level. "Uninformative transparency laws commonly required that supply chain participants disclose pricing or formulary design methodology, provide advance notice of list price increases, or register with a
+government regulatory body." While some of the laws mentioned take steps to increase market transparency, "no state passed laws that together revealed true transaction prices or profits across all supply chain segments."
 Graphic: https://mpattok.github.io/seminar/irr/graphics/transparency-laws-table.png
 URL: https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2751892
 Bibliography Entry: Ryan, Martha S, and Nerraj Sood. "Analysis of State-Level Drug Pricing Transparency Laws
 in the United States." Journal of the American Medical Association, 2019. Accessed 22 Jan 2020.
+
+
+
+Information Label: 
+Notes:
+
+Graphic: 
+URL: 
+Bibliography Entry: 
+
+
+
+Information Label: 
+Notes:
+
+Graphic: 
+URL: 
+Bibliography Entry: 
 
 
 
