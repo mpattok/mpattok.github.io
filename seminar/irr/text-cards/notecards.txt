@@ -32,6 +32,10 @@ Bibliography Entry: Luo, Jing, et al. "Strategies to Improve the Affordability o
 
 
 
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 Information Label: Transparency
 Notes:
 Due to the lack of transparency in the pharmaceutical market, "few people outside of the pharmaceutical industry know which
@@ -46,7 +50,7 @@ in the United States." Journal of the American Medical Association, 2019. Access
 
 Information Label: Monopoly
 Notes:
-
+Rakjumar analyzed causes and potential solutions on the policy and physician level of the rising price of insulin. He found that the causes were the need of diabetics for insulin, the monopolized market and patent evergreening, barriers to biosimilar (generic) entry, PBMs and other middlement profiting off of the price increases, and the lobbying power of insulin manufacturers. With regard to monopolies, Rakjumar notes that "[t]hree companies, Novo Nordisk, Sanofi-Aventis, and Eli Lilly control most of the market" and that [u]ntil recently, almost every insulin product sold in the United States was made by these 3 companies[, which] still continue to have a monopolistic hold on an essential product, with limited competition, and no regulations in effect to cap or control prices." With regard to patent evergreening, Rakjuma notes that "from 1921 to early 2000s, there has been a continued improvement in insulin formulations," and each formulation "came with new patents," despite different formulations only being slightly different. This patent strategy has "prolonged the patent life and extended the monopoly on these products to the present day." Furthermore, "pharmaceutical com panies have resorted to filing and securing multiple patents on the same drug[;]... 70 patents have been filed for Lan tus since the drug was first introduced, which can technically provide more than 30 additional years of monopoly protection." With patents protecting monopolies, there can be no competition.
 URL: https://www.mayoclinicproceedings.org/article/S0025-6196(19)31008-0/pdf
 Bibliography Entry: Rajkumar, S Vincent. "The High Cost of Insulin in the United States: An Urgent Call to Action." Mayo Clinic, 2020, vol 25, issue 1. Accessed 22 Jan 2020.
 
@@ -54,8 +58,13 @@ Bibliography Entry: Rajkumar, S Vincent. "The High Cost of Insulin in the United
 
 Information Label: Monopoly
 Notes:
-
+Greene and Riggs looked into the history behind the current monopoly in the insulin market. The "Drug  Price  Competition  and  Patent  Term Restoration Act" of 1984established the idea that "innovative drugs are rewarded with high prices during their window of patent protection, and generic competition reduces prices thereafter." Insulin did not follow this premise, and so "[w]hereas many other essential medications are available as $4 generics, no similarly low-priced versions of insulin are available." From insulin's invention in 1921 to the mid-1950s, insulin was much improved, such as the development of long-acting insulin that could be effective even with just one injection per day, and these innovations made insulin more effective, "but extended the reach of insulin patents into the 1970s." In the 1970s, insulin was still mostly produced from "beef and pork, and so was "plagued with problems inherent to animal-tissue extracts," and so a "series  of  innovations in the insulin manufacturing process in the early 1970s helped to improve purity and reduce... side  effects... extend[ing]  insulin  patents  into the late 1980s." In the late 1970s and 1980s, human-sourced insulin was developed, and patents stretched into the 21st century. "In 1996, lispro became the first short-acting insulin analogue to be approved;  aspart  followed in 2000, and glulisine in 2004." In the realm of long-acting analogues, "glargine became the first long-acting  analogue  insulin  in  2000,  followed  by  detemir  in  2005;  the  first  patents  on  these  products expired in June 2014."
 URL: https://mpattok.github.io/seminar/irr/pdfs/no-generic-insulin.pdf
 Bibliography Entry: Greene, Jeremy A, and Kevin R Riggs. "Why Is There No Generic Insulin? Historical Origins of a Modern Problem." The New England Journal of Medicine, 2015. Accessed 23 Jan 2020.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
 
 
