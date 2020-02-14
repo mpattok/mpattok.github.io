@@ -6,10 +6,10 @@
 var events = [
 ["2-14-2020","<b>TMP SCRIPT DONE</b><br>END OF DAY"],
 ["2-17-2020","<b>
-[],
-["2-19-2020",<b>TMP SLIDES DONE</b><br>END OF DAY"],
-[],
+["2-18-2020","Staying in Matts's room after school for like an hour-ish"],
+["2-19-2020","<b>TMP SLIDES DONE</b><br>END OF DAY"],
 [],
 ["2-25-2020","<b>PRACTICE TMP RECORDING</b><br>Matts's room after school for 20ish minutes"],
+["2-26-2020","Meeting at Patrick's after school"],
 ["2-28-2020","<b>PRESENT TMP"],
 ];
