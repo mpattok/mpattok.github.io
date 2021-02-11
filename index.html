@@ -1,160 +1,22 @@
 <!DOCTYPE html>
-<html?
-
+<html>
 <head>
-<title>Trading Experiment</title>
-<style>
-html, body, p {
-  padding: 0;
-  margin: 0;
-  font-family: verdana;
-}
-#header {
-  width: 100%;
-  background-color: black;
-  color: white;
-  height: 6em;
-}
-.hleft {
-  font-size: 4em;
-  position: absolute;
-  margin-left: 10px;
-}
-.hright {
-  float: right;
-  margin-top: 4em;
-  margin-right: 10px;
-}
-#start, #read, #qs, #play, #trade {
-  background-color: black;
-  color: white;
-  font-size: 1em;
-}
-#main {
-  margin-top: 1em;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-#code, #apples {
-  width: 40px;
-  font-size: 1em;
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="charset" content="utf-8">
+<meta name="keywords" content="mpattok, matt, pattok, casio, prizm, programming, matt2022">
+<meta name="description" content="an i oop-">
+<meta name="author" content="Matthew Pattok">
 </head>
-
 <body>
-<div id="header">
-<p class="hleft">Trading Experiment</p>
-<p class="hright">Thank you for participating</p>
-</div>
-<br>
-<div id="main">
-Please enter your 4-digit code: <input id="code"><button id="start">Enter</button>
-<p id="error" style="color: red"></p>
+<div id="heading"></div>
+<div id="content">
+Hi I'm Matt this is my site
 </div>
 <script>
-var codes = [1700];
-var treatment = 0;
-var code = 0;
-function enter() {
-  code = document.getElementById("code").value;
-  treatment = parseInt(code[0]);
-  if (codes.indexOf(parseInt(code)) == -1) {
-    document.getElementById("error").innerHTML = "Please enter a valid code";
-  } else {
-    document.getElementById("main").innerHTML = `<p>Please review the following information regarding this study:<br>
-<br>
-No identifying information about you is collected here. If you so choose, you do not have to share any personal information. You can terminate your involvement with the study at any time, without giving a reason.<br>
-<br>
-</p>
-<button id="read">Continue</button>`;
-  document.getElementById("read").onclick = questions;
-  }
-}
-document.getElementById("start").onclick = enter;
-
-function questions() {
-  document.getElementById("main").innerHTML = `<p>Please complete the following questionnaire. Remember, you are not obligated to answer. If you do not want to answer any questions, simply select "Prefer not to say."<br>
-<br>
-1. Select your school class:<br>
-<input type="radio" name="class" id="c9"><label for="c9">Freshman</label><br>
-<input type="radio" name="class" id="c10"><label for="c10">Sophomore</label><br>
-<input type="radio" name="class" id="c11"><label for="c11">Junior</label><br>
-<input type="radio" name="class" id="c12"><label for="c12">Senior</label><br>
-<inout type="radio" name="class" id="cnan"><label for="cnan">Prefer not to say</label><br>
-<br>
-2. Indicate your gender:<br>
-<input type="radio" name="gender" id="gm"><label for="gm">Male</label><br>
-<input type="radio" name="gender" id="gf"><label for="gf">Female</label><br>
-<input type="radio" name="gender" id="go"><label for="go">Other</label> (Specify, if desired: <input id="gos">)<br>
-<input type="radio" name="gender" id="gnan"><label for="gnan">Prefer not to say</label><br>
-<br>
-3. How many Honors/AP classes are you in?<br>
-<input type="radio" name="hap" id="h0"><label for="h0">0</label><br>
-<input type="radio" name="hap" id="h1"><label for="h1">1</label><br>
-<input type="radio" name="hap" id="h2"><label for="h2">2</label><br>
-<input type="radio" name="hap" id="h3"><label for="h3">3</label><br>
-<input type="radio" name="hap" id="h4"><label for="h4">4</label><br>
-<input type="radio" name="hap" id="h5"><label for="h5">5</label><br>
-<input type="radio" name="hap" id="h6"><label for="h6">6</label><br>
-<input type="radio" name="hap" id="hnan"><label for="hnan">Prefer not to say</label><br>
-<br>
-4. What letter grade range do you tend to get (for AP classes, bump it up a letter)?<br>
-<input type="radio" name="grade" id="gpa"><label for="gpa">A</label><br>
-<input type="radio" name="grade" id="gpb"><label for="gpb">B</label><br>
-<input type="radio" name="grade" id="gpc"><label for="gpc">C</label><br>
-<input type="radio" name="grade" id="gpd"><label for="gpd">D</label><br>
-<input type="radio" name="grade" id="gpf"><label for="gpf">F</label><br>
-<input type="radio" name="grade" id="gpnan"><label for="gpnan">Prefer not to say</label><br>
-<br>
-<button id="qs">Submit</button>
-</p>
-<br>
-<p id="error" style="color: red"></p><br>`;
-  document.getElementById("qs").onclick = intro;
-}
-
-function intro() {
-  var ids = ["c9", "c10", "c11", "c12", "cnan", "gm", "gf", "go", "gnan", "h0", "h1", "h2", "h3", "h4", "h5", "h6", "hnan", "gpa", "gpb", "gpc", "gpd", "gpf", "gpnan"];
-  var checked = 0;
-  for(var i = 0; i < 23; i++) {
-    if(document.getElementById(ids[i]).checked) {checked++}
-  }
-  if(checked < 4) {
-    document.getElementById("error").innerHTML = 'Please select an answer to every question. If you do not wish to answer a question, please select "Prefer not to say."';
-  } else {
-    document.getElementById("main").innerHTML = `<p>You will be playing a trading game with your partner. The two of you are playing simultaneously. Each round, you will decide how many apples to give to your partner, and they will decide how many oranges to give to you. Every round you will be requesting 20 oranges, and your partner will be requesting 20 apples. You can decide to give anywhere from 0 to 20 apples, and they can decide to give anywhere from 0 to 20 oranges. At the end of each round, you will be told how much they gave and they will be told how much you gave.<br>
-<br>
-<button id="play" onclick>Start</button>`;
-    document.getElementById("play").onclick = game;
-  }
-}
-
-var round = 0;
-var give = [];
-var times = [];
-var given = 0;
-var gave = 0;
-var round = 0;
-function game() {
-  round++
-  if(round > 1) {
-    gave = parseInt(document.getElementById("apples").value);
-    var get = [20, Math.min(1, Math.ceil(1.25*gave)), gave, Math.floor(0.75*gave), 0];
-    given = get[treatment - 1];
-  }
-  if (round < 11) {
-    document.getElementById("main").innerHTML = `<p>` + (round > 1 ? `You gave your partner ` + (gave > 0 ? gave : "no") + ` apple` + (gave == 1 ? "" : "s") + ` out of the 20 they requested. <br> Your partner gave you ` + (given > 0 ? given : "no") + ` orange` + (given == 1 ? "" : "s") + ` out of the 20 you requested. <br><br> ` : ``) + `Your partner is requesting 20 apples. You are requesting 20 oranges.<br>
-<br>
-How many apples do you want to give to your partner?<br><br>
-<input id="apples"><button id="trade" onclick="game()">Give</button>`;
-  } else {
-    document.getElementById("main").innerHTML = "<p>Thank you for participating</p>";
-  }
-}
-
-
+  var title = "Home";
+  var links = ["seminar/","researc/"];
+  var linkNames = ["Seminar","Research"];
 </script>
+<script src="resources/builder.js"></script>
 </body>
-
 </html>
