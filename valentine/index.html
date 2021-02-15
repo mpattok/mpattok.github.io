@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Valentine</title>
+<style id="back"></style>
+</head>
+<script>
+var pics = ["comrades.png", "imperfections.PNG", "means.PNG", "proletarihot.jpg"];
+var pic = Math.floor(Math.random() * 4);
+pic = pics[pic];
+back.innerHTML = `html { 
+  background: ` + pic + ` no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}`;
+</script>
+</html>
