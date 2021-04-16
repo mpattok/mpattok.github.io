@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2021 AP Exam Schedule - Matt Pattok</title>
+</head>
+<body>
+<h1>2021 AP Exam Schedule - Matt Pattok</h1>
+<div width="100%" style="text-align: center;">
+<iframe id="jsCalendar" src="calendar.html" style="border: 0; display: inline-block;" width="1000" height="900" frameborder="0"></iframe>
+</div>
+<div id="schedule"></div>
+</body>
+<script src = "calendar-events.js"></script>
+<script>
+  //generate schedule from calendar-events.js
+  var date = new Date();
+  var eventsSchedule = "<table>\n<tbody>";
+  for(var x = 0; x < events.length; x++) {
+    eDate = new Date(events[x][0].replace(/-/g,"/"));
+    if(events[x][2] && (date.getTime() - eDate.getTime()) / 864e5 < 90) {
+      eventsSchedule = eventsSchedule + "<tr><td style='padding: 1em; vertical-align: text-top'><b>" + events[x][0] + "</b></td><td style='vertical-align: text-top'>" + events[x][1] + "</td></tr>";
+    }
+  }
+  eventsSchedule = eventsSchedule + "</tbody>\n</table>";
+  schedule.innerHTML = eventsSchedule;
+</script>
+</html>
