@@ -6,8 +6,7 @@
 </head>
 <script>
 var pics = ["comrades.png", "imperfections.PNG", "means.PNG", "proletarihot.jpg"];
-var pic = Math.floor(Math.random() * 4);
-pic = pics[pic];
+pic = pics[Math.floor(Math.random() * 4)];
 back.innerHTML = `html { 
   background: ` + pic + ` no-repeat center center fixed; 
   -webkit-background-size: cover;
