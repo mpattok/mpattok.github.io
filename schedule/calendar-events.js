@@ -3,7 +3,7 @@
   TRUE/FALSE refers to whether or not an event goes on list schedule (joke items like "Wish Matt a happy birthday :)" would have false for that value)
 */
 
-var parking = "6:30-7:30 PM: Collecting parking money for Math Team at ACE parking lot for plaza music event";
+var parking = "6:30-7:30 PM: Parking at ACE for Math Team";
 var bovard = "Bovard Scholars";
 
 var events = [
@@ -14,10 +14,11 @@ var events = [
   ["5-17-2021", "<p style='text-indent: -12px; margin: 0; padding: 0; margin-left: 12px'>Computer Science Principles (8 AM)</p><p>Statistics (12 PM)</p>", true],
   ["5-20-2021", "<p style='text-indent: -12px; margin: 0; padding: 0; margin-left: 12px'><b>Digital Portfolios Due 11:59 PM EST:</b></p><p style='text-indent: -12px; margin: 0; padding: 0; margin-left: 12px'>Computer Science Principles</p><p style='margin: 0; padding: 0'>Research</p>", true],
   ["6-2-2021", parking, true],
-  ["6-9-2021", parking, true].
-  ["6-16-2021", parking, true].
+  ["6-9-2021", parking, true],
+  ["6-14-2021", "2nd COVID vaccine dose at 6 PM at 330 W Woodlawn Ave", true],
+  ["6-16-2021", parking, true],
   ["6-23-2021", parking, true],
-  ["6-25-2021", parking, true].
+  ["6-25-2021", parking, true],
   ["6-30-2021", parking, true],
   ["7-7-2021", parking, true],
   ["7-21-2021", "AP Scores Released", true],
@@ -28,5 +29,3 @@ var events = [
   ["8-20-2021", parking, true],
   ["8-25-2021", parking, true]
 ];
-
-
