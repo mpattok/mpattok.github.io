@@ -1,7 +1,7 @@
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 monthLengths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 var date = new Date();
-var position = [4, 2021];
+var position = [date.getMonth(), date.getFullYear()];
 calendarHere.innerHTML = `<table style="border: none; width: 100%;">
 <tbody>
 <tr>
