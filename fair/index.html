@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fair Scheduling</title>
+  <style>
+    body {
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+<h2>Fair Scheduling</h2>
+<p>Check off all days that you can go to the fair and what times for those days.</p>
+<div>Name: <input type="text" id="name"></div><br>
+<div id="mon" class="time">Monday 7/19.</div><br>
+<div id="thu" class="time">Thursday 7/22.</div><br>
+<div id="sat" class="time">Saturday 7/24.</div><br>
+<div>Anything else you'd like known:<br><textarea id="more" style='width: 500px; height: 100px'></textarea></div><br>
+<button id="submit" style='height: 1.5em; font-size: 1.5em'>Submit</button>
+<div id="form"></div>
+<script>
+var times = document.getElementsByClassName("time");
+for(var i = 0; i < times.length; i++) {
+  var day = times[i].id;
+  var title = times[i].innerHTML;
+  times[i].innerHTML = `<input id='do` + day + `' type='checkbox'>
+<label for='do` + day + `'>` + title + `</label>
+<input min='1' max='12' style='width:5em; height: 2em;' type='number' id='` + day + `from'> PM
+to <input min='1' max='12' style='width:5em; height: 2em;' type='number' id='` + day + `to'> PM`;
+}
+document.getElementById("submit").onclick = function () {
+  var link = "https://docs.google.com/forms/d/e/1FAIpQLScnm_fHOecdaOaoV8P75BrWTXx3knzo3SqTSBEUNr2W7o5qsQ/formResponse?";
+  var name = "&entry.139173802=" + document.getElementById('name').value;
+  var mon = "&entry.1649776183=" + monfrom.value + "PM-" + monto.value + "PM";
+  var thu = "&entry.2028028213=" + thufrom.value + "PM-" + thuto.value + "PM";
+  var sat = "&entry.642520357=" + satfrom.value + "PM-" + satto.value + "PM";
+  var notes = "&entry.1378269404=" + more.value;
+  link += name 
+    + (document.getElementById("mon").checked ? mon : "") 
+    + (document.getElementById("thu").checked ? thu : "") 
+    + (document.getElementById("sat").checked ? sat : "") 
+    + notes 
+    + "&submit=SUBMIT";
+  console.log(link);
+  form.innerHTML = `<iframe src='` + link + `' style='display: none'></iframe>`;
+}
+</script>
+</body>
+</html>
