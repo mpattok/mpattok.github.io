@@ -25,23 +25,24 @@ for(var i = 0; i < times.length; i++) {
   var title = times[i].innerHTML;
   times[i].innerHTML = `<input id='do` + day + `' type='checkbox'>
 <label for='do` + day + `'>` + title + `</label>
-<input min='1' max='12' style='width:5em; height: 2em;' type='number' id='` + day + `from'> PM
-to <input min='1' max='12' style='width:5em; height: 2em;' type='number' id='` + day + `to'> PM`;
+<input min='1' max='12' style='width:5em; height: 2em;' type='number' id='` + day + `from'>
+<select id='a` + day + `'><option value="AM">AM</option><option value="PM" selected>PM</option></select>
+to <input min='1' max='12' style='width:5em; height: 2em;' type='number' id='` + day + `to'>
+<select id='b` + day + `'><option value="AM">AM</option><option value="PM" selected>PM</option></select>`;
 }
 document.getElementById("submit").onclick = function () {
   var link = "https://docs.google.com/forms/d/e/1FAIpQLScnm_fHOecdaOaoV8P75BrWTXx3knzo3SqTSBEUNr2W7o5qsQ/formResponse?";
   var name = "&entry.139173802=" + document.getElementById('name').value;
-  var mon = "&entry.1649776183=" + monfrom.value + "PM-" + monto.value + "PM";
-  var thu = "&entry.2028028213=" + thufrom.value + "PM-" + thuto.value + "PM";
-  var sat = "&entry.642520357=" + satfrom.value + "PM-" + satto.value + "PM";
+  var mon = "&entry.1649776183=" + (monfrom.value != "" ? monfrom.value + "PM" : "") + (monto.value != "" ? " - "+ monto.value + "PM" : "");
+  var thu = "&entry.2028028213=" + (thufrom.value != "" ? thufrom.value + "PM" : "") + (thuto.value != "" ? " - "+ thuto.value + "PM" : "");
+  var sat = "&entry.642520357=" + (satfrom.value != "" ? satfrom.value + "PM" : "") + (satto.value != "" ? " - "+ satto.value + "PM" : "");
   var notes = "&entry.1378269404=" + more.value;
-  link += name 
-    + (document.getElementById("mon").checked ? mon : "") 
-    + (document.getElementById("thu").checked ? thu : "") 
-    + (document.getElementById("sat").checked ? sat : "") 
-    + notes 
-    + "&submit=SUBMIT";
-  console.log(link);
+  link += name +
+    (document.getElementById("domon").checked ? mon : "") +
+    (document.getElementById("dothu").checked ? thu : "") +
+    (document.getElementById("dosat").checked ? sat : "") +
+    notes +
+    "&submit=SUBMIT";
   form.innerHTML = `<iframe src='` + link + `' style='display: none'></iframe>`;
 }
 </script>
