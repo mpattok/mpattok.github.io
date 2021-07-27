@@ -3,7 +3,12 @@
 <head>
 <title>schedule</title>
 </head>
-<body>
+<body></body>
 <script src="../builder.js"></script>
-</body>
+<script>
+setTimeout( function() {
+  if(document.body.innerHTML == "" ) {
+    location.reload();
+  }
+}, 1000);
 </html>
