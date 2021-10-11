@@ -76,9 +76,9 @@ As soon as a word appears on your screen, click the button with the name of the 
 </div>
 <hr>
 <script>
-var r = "red", g = "green", b = "blue", y = "yellow", p = "pink", o = "orange", w = "white", B = "brown";
-var wc1 = [r,g,b,y,p,o,b,g,b,w,g,y,o,b,w,B,r,b,y,g,p,y,g,b,r];
-var w2 = [r,g,b,y,p,o,b,g,b,w,g,y,o,b,w,B,r,b,y,g,p,y,g,b,r];
+var r = "red", g = "green", b = "blue", y = "yellow", p = "pink", o = "orange", w = "white";
+var wc1 = [r,g,b,y,p,o,b,g,b,w,g,y,o,b,w,o,r,b,y,g,p,y,g,b,r];
+var w2 = [r,g,b,y,p,o,b,g,b,w,g,y,o,b,w,o,r,b,y,g,p,y,g,b,r];
 var c2 = [g,y,w,p,o,b,r,y,g,b,r,b,g,r,p,b,y,p,g,o,r,b,o,r,g];
 var words = [wc1, w2];
 var colors = [wc1, c2];
@@ -93,7 +93,7 @@ function game() {
   document.getElementById("pageNumber").innerHTML = page + 1;
   document.getElementById("test").innerHTML = words[page][problem].toUpperCase();
   test.style.color = colors[page][problem];
-  choices = [r, g, b, y, p, o, w, B];
+  choices = [r, g, b, y, p, o, w];
   choices.splice(choices.indexOf(colors[page][problem]), 1);
   var ids = ['choice1', 'choice2', 'choice3', 'choice4'];
   var correct = ids.splice(Math.floor(Math.random() * 4), 1)[0];
