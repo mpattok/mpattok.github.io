@@ -131,8 +131,7 @@ function nextFunction() {
     setTimeout(function () {start = Date.now()}, 5000);
     setTimeout(game, 5000);
   } else {
-    document.getElementById("content").innerHTML = "<center><h3>When the words and colors matched, you took " + times[0] + " seconds.<br>When the words and colors didn't match, you took " + times[1] + " seconds.</h2><br><br>\n<div style='width: 50%; text-align: left'>\nWhat does the difference show about how we perceive information?\n<br><br>\n</div>\n</center>\n<iframe src="../" style='position:fixed; top:10em; left:0; bottom:0; right:0; width:50%; border:none; margin:0; padding:0; overflow:hidden; z-index:1;'>\nYour browser doesn't support iframes\n</iframe>
-";
+    document.getElementById("content").innerHTML = "<center><h3>When the words and colors matched, you took " + times[0] + " seconds.<br>When the words and colors didn't match, you took " + times[1] + " seconds.</h2><br><br>\n<div style='width: 50%; text-align: left'>\nWhat does the difference show about how we perceive information?\n<br><br>\n</div>\n</center>\n<iframe src='../' style='position:fixed; top:10em; left:0; bottom:0; right:0; width:50%; border:none; margin:0; padding:0; overflow:hidden; z-index:1;'>\nYour browser doesn't support iframes\n</iframe>";
   }
 }
 document.getElementById("next").onclick = nextFunction;
