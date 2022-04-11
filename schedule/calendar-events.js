@@ -35,5 +35,10 @@ var events = [
   ["8-4-2021", parking, "4-0-7-0"],
   ["8-13-2021", "Driving Test 1PM @ 535 W Woodlawn Ave", "0"],
   ["8-23-2021", "School Starts", "0"],
-  ["11-11-2003", "Matt's birthday", "80-0-0-1"]
+  ["11-11-2003", "Matt's birthday", "80-0-0-1"],
+  ["5-3-2022", "AP Psychology (12 PM)", "0"],
+  ["5-4-2022", "AP English Literature and Composition (8 AM)", "0"],
+  ["5-6-2022", "AP United States History (8 AM)", "0"],
+  ["5-10-2022", "AP Physics C: Mechanics (12 PM)<br>AP Physics C: Electricity and Magnetism (2 PM)", "0"],
+  ["5-11-2022", "AP Spanish Language and Culture (8 AM)", "0"]
 ];
