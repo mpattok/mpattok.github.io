@@ -40,5 +40,7 @@ var events = [
   ["5-4-2022", "AP English Literature and Composition (8 AM)", "0"],
   ["5-6-2022", "AP United States History (8 AM)", "0"],
   ["5-10-2022", "AP Physics C: Mechanics (12 PM)<br>AP Physics C: Electricity and Magnetism (2 PM)", "0"],
-  ["5-11-2022", "AP Spanish Language and Culture (8 AM)", "0"]
+  ["5-11-2022", "AP Spanish Language and Culture (8 AM)", "0"],
+  ["5-25-2022", "Graduation Practice on field<br>Lunch 12 PM, Practice 1:30 PM<br>Honors Night PAC 7 PM", "0"],
+  ["5-26-2022", "Graduation 7PM Field, Senior Party After", "0"]
 ];
