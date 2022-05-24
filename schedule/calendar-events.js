@@ -41,6 +41,6 @@ var events = [
   ["5-6-2022", "AP United States History (8 AM)", "0"],
   ["5-10-2022", "AP Physics C: Mechanics (12 PM)<br>AP Physics C: Electricity and Magnetism (2 PM)", "0"],
   ["5-11-2022", "AP Spanish Language and Culture (8 AM)", "0"],
-  ["5-25-2022", "<ul style="margin:0;padding:0;padding-left:15px"><li>CLP Exam 9:30, leave 8 AM. Montcalm Community College, 1325 Yellow Jacket Dr, Ash TLC Building, Greenville, MI</li><li>Graduation Practice on field 1:30 PM</li><li>Honors Night PAC 7 PM</li></ul>", "0"],
+  ["5-25-2022", "<ul style='margin:0;padding:0;padding-left:15px'><li>CLP Exam 9:30, leave 8 AM. Montcalm Community College, 1325 Yellow Jacket Dr, Ash TLC Building, Greenville, MI</li><li>Graduation Practice on field 1:30 PM</li><li>Honors Night PAC 7 PM</li></ul>", "0"],
   ["5-26-2022", "Graduation 7PM Field, Senior Party After", "0"]
 ];
