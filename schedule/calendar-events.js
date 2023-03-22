@@ -44,5 +44,9 @@ var events = [
   ["5-10-2022", "AP Physics C: Mechanics (12 PM)<br>AP Physics C: Electricity and Magnetism (2 PM)", "0"],
   ["5-11-2022", "AP Spanish Language and Culture (8 AM)", "0"],
   ["5-25-2022", may25, "0"],
-  ["5-26-2022", "Graduation 7PM Field, Senior Party After", "0"]
+  ["5-26-2022", "Graduation 7PM Field, Senior Party After", "0"],
+  ["5-1-2023", "CIS 1210 Final<br>3PM - DRLB A1", "0"],
+  ["5-2-2023", "PHIL 1433 Final<br>9AM - STIT B6", "0"],
+  ["5-8-2023", "CIS 2400 Final<br>9AM - CHEM 102", "0"],
+  ["5-8-2023", "STAT 4300 Final<br>3PM - SHDH 1206 or 350", "0"]
 ];
