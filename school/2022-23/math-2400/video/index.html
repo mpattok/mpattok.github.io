@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  Frame Source:
+  <textarea id="framesrc"></textarea>
+  <button id="btn">Get Video</button>
+  <div id="out"></div>
+  
+  <script>
+  let parse_slashes = str => str.replace(/\\\//g, "/");
+
+  function src_to_link(src) {
+    let index_a = src.indexOf("VideoUrl") + 11;
+    let index_b = src.indexOf(".mp4") + 3;
+    let link = src.substring(index_a, index_b + 1);
+    return parse_slashes(link);
+  }
+
+  function get_link() {
+    const framesrc = document.getElementById("framesrc");
+    const out = document.getElementById("out");
+    let link = src_to_link(framesrc.value);
+    out.innerHTML = '<video src ="' + link + '" controls></video>';
+  }
+
+  document.getElementById("btn").onclick = get_link;
+
+</script>
+</body>
+</html>
