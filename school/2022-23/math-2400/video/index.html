@@ -2,11 +2,15 @@
 <html>
 <body>
 
-  Frame Source:
-  <textarea id="framesrc"></textarea>
+  Frame Source:<br>
+  <textarea id="framesrc"></textarea> <br>
+  <button id="paste">Paste Source</button>
   <button id="btn">Get Video</button>
+  <hl>
+  <center>
   <div id="out"></div>
-  
+  </center>
+    
   <script>
   let parse_slashes = str => str.replace(/\\\//g, "/");
 
@@ -25,6 +29,10 @@
   }
 
   document.getElementById("btn").onclick = get_link;
+    
+  paste.onclick = () => 
+  	navigator.clipboard.readText()
+    .then((clipText) => (document.getElementById("framesrc").innerText = clipText));
 
 </script>
 </body>
