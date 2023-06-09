@@ -29,11 +29,13 @@
   }
 
   function get_link() {
-    const framesrc = document.getElementById("framesrc");
+    const framesrc = document.getElementById("framesrc").value;
     const out = document.getElementById("out");
-    let link = src_to_link(framesrc.value);
+    const title_hd = document.getElementById("title");
+    let link = src_to_link(framesrc);
+    let title = src_to_title(framesrc)
     out.innerHTML = '<video src ="' + link + '" controls></video>';
-    document.getElementById("title").innerHTML = src_to_title(framesrc);
+    title_hd.innerHTML = title;
   }
 
   document.getElementById("btn").onclick = get_link;
