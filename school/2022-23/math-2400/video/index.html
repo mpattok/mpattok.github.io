@@ -6,8 +6,9 @@
   <textarea id="framesrc"></textarea> <br>
   <button id="paste">Paste Source</button>
   <button id="btn">Get Video</button>
-  <hl>
+  <hr>
   <center>
+  <h3 id="title"></h2>
   <div id="out"></div>
   </center>
     
@@ -20,12 +21,19 @@
     let link = src.substring(index_a, index_b + 1);
     return parse_slashes(link);
   }
+    
+  function src_to_title(src) {
+    let index_a = src.indexOf("<title>") + 7;
+    let index_b = src.indexOf("</title>")'
+    return src.substring(index_a, index_b);
+  }
 
   function get_link() {
     const framesrc = document.getElementById("framesrc");
     const out = document.getElementById("out");
     let link = src_to_link(framesrc.value);
     out.innerHTML = '<video src ="' + link + '" controls></video>';
+    document.getElementById("title").innerHTML = src_to_title(framesrc);
   }
 
   document.getElementById("btn").onclick = get_link;
