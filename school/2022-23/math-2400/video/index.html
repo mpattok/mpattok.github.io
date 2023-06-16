@@ -23,6 +23,9 @@
   </center>
     
   <script>
+
+  let doc_title = document.title;
+  
   let parse_slashes = str => str.replace(/\\\//g, "/");
 
   function src_to_link(src) {
@@ -46,6 +49,7 @@
     let title = src_to_title(framesrc)
     out.innerHTML = '<video src ="' + link + '" controls></video>';
     title_hd.innerHTML = title;
+    document.title = title + " | doc_title;
   }
 
   document.getElementById("btn").onclick = get_link;
