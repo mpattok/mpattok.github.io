@@ -49,7 +49,7 @@
     let title = src_to_title(framesrc)
     out.innerHTML = '<video src ="' + link + '" controls></video>';
     title_hd.innerHTML = title;
-    document.title = title + " | doc_title;
+    document.title = title + " | " + doc_title;
   }
 
   document.getElementById("btn").onclick = get_link;
