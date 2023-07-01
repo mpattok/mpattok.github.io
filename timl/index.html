@@ -5,12 +5,16 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+
+        <!--
         <pre class="code">
 type interface 'a list =
     type 'a list;
     operator (::) : ('a) (::) ('a list) -> 'a list;
     operator ([) (]) : ('a list) ([) (int) (]) -> 'a;
 end</pre>
+        -->
+        
         <h1>Timl (Timl isn't ML)</h1>
         <p>Source file extension: .tl<br>Interface file extension: .tli</p>
         <h3>Keywords</h3>
@@ -102,5 +106,75 @@ end</pre>
             </tr>
 
         </table>
+
+        <h3>Compiler Directives</h3>
+        <table>
+            <tr>
+                <td>#import</td>
+                <td>Make the names of a source or binary file visible to the program, or make an interface file visible.<br>
+                    The formatting of the name given to the directive tells the compiler where to find the file:<br>
+                    <span class="snip">#import &lt;stdlib&gt;</span> stdlib is in the standard library<br>
+                    <span class="snip">#import [tree.tli]</span> tree is a user-installed package<br>
+                    <span class="snip">#import "my_lib.tl"</span> the file to import is located at the given location (relative to the source file)<br>
+                    Some additional parameters can be given after the file name when importing source or binary files:<br>
+                    <span class="snip">#import "my_lib.tl" in my_module</span> the file names will be wrapped in a module of the supplied name. If the file contains only one module, with no names outside that module, it will be imported as normal but with the name of the module changed.<br>
+                    <span class="snip">#import "my_lib.tl" for "my_interface.tl"</span> only the names in the file which are required by the interface will be made visible. Compilation fails if the file does not have the names necessary to implement the interface (or if it is a single-module file, if that module cannot implement the interface). No effect if the file is a single-module file which is already declared to implement the given interface. Instead of a .tli file, the supplied parameter can be the name of an already-visible interface.<br>
+                    <span class="snip">#import "my_lib.tl" > my_func, my_type only make the given names visible. If the file is a single module or if the file is opened in a module, this does not open the module-- it is still necessary to reference the module name before the funcion name, e.g. <span class="snip">my_lib.my_func</span><br>
+                    All of these additional parameters may be present, but the name specifier must come last if it is present, e.g. <span class="snip">#import &lt;stdlib&gt; in std for "my_std.tli" > printf</span> is valid, but <span class="snip">#import &lt;stdlib&gt; in std > printf for "my_std.tli"</span> is not.
+                </td>
+            </tr>
+            <tr>
+                <td>#open</td>
+                <td>Make all names in a module visible without having to first reference the module itself, e.g. after calling <span class="snip">#open stdlib</span>, <span class="snip">printf</span> can be referenced on its own (<span class="snip">stdlib.printf</span> is still valid, but not necessary). To open a file, it must be imported first.</td>
+            </tr>
+            <tr>
+                <td>#parser</td>
+                <td>Run a program with all text below the directive as input, and compile the program's output. The supplied program parameter must be a Timl source file or a binary file (in the former case, the source file will be interpreted). The program must take a source file as input and give a source file as output. The format to specify the program is the same as for an import directive. This directive allows for the compiler to be extended in a modular way.</td>
+            </tr>
+            <tr>
+                <td>#define</td>
+                <td>Replace all instances of a macro with the given definition and keep track of the macro being defined. Do not immediately replace instances in other directives. Stop replacing if a directive is reached which redefines or undefines the macro. If a definition is not given, instances are simply deleted.<br>
+                Does not support C-style function-like macros.</td>
+            </tr>
+            <tr>
+                <td>#undef</td>
+                <td>Undefine a macro. Define directives above do not continue to replace below, and directives below which query for the definition will not have it defined.</td>
+            </tr>
+            <tr>
+                <td>#if</td>
+                <td>Conditional compilation. Check a condition, and include the code below, or skip it until a matching else or endif directive is reached. The condition must be known at compile time.</td>
+            </tr>
+            <tr>
+                <td>#ifdef</td>
+                <td>if directive, but where the condition must be a macro name. Evaluates to true if and only if the macro has been defined above and has not been undefined since it was last defined.</td>
+            </tr>
+            <tr>
+                <td>#ifndef</td>
+                <td>if directive, true if and only if the macro is not defined when the directive is reached, whether it was never defined to begin with or has been undefined</td>
+            </tr>
+            <tr>
+                <td>#elif</td>
+                <td>Must be after an if/elif directive, before the matching endif directive. Compiles section if and only if all preceding conditions failed and the supplied condition passes.</td>
+            </tr>
+            <tr>
+                <td>#elifdef</td>
+            </tr>
+            <tr>
+                <td>#elifndef</td>
+            </tr>
+            <tr>
+                <td>#else</td>
+                <td>Compiles section if and only if all preceding conditions failed</td>
+            </tr>
+            <tr>
+                <td>#endif</td>
+                <td>End a conditional compilation block</td>
+            </tr>
+            <tr>
+                <td>#error</td>
+                <td>Throw an error. May supply message to be displayed</td>
+            </tr>
+        </table>
+        
     </body>
 </html>
