@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timl: Timl isn't ML</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <pre class="code">
+type interface 'a list =
+    type 'a list;
+    operator (::) : ('a) (::) ('a list) -> 'a list;
+    operator ([) (]) : ('a list) ([) (int) (]) -> 'a;
+end</pre>
+        <h1>Timl (Timl isn't ML)</h1>
+        <p>Source file extension: .tl<br>Interface file extension: .tli</p>
+        <h3>Keywords</h3>
+        <table class="">
+            <tr class="topborder">
+                <th rowspan="3">Built-In Primitive<br>Types</th>
+                <td>byte</td>
+                <td>ubyte</td>
+                <td>short</td>
+                <td>ushort</td>
+            </tr>
+            <tr>
+                <td>int</td>
+                <td>uint</td>
+                <td>long</td>
+                <td>ulong</td>
+            </tr>
+            <tr>
+                <td>float</td>
+                <td>double</td>
+                <td>bool</td>
+                <td>unit</td>
+            </tr>
+            <tr class="topborder">
+                <th rowspan="3">Built-In Complex<br>Types</th>
+                <td>string</td>
+                <td>'a list</td>
+                <td>'a array</td>
+                <td>'a unique</td>
+            </tr>
+            <tr>
+                <td>'a ref</td>
+                <td>'a addr</td>
+                <td>'a ptr</td>
+                <td>'a region</td>
+            </tr>
+            <tr>
+                <td>'a option</td>
+                <td>'a result</td>
+            </tr>
+            <tr class="topborder">
+                <th rowspan="3">Control Flow</th>
+                <td>begin</td>
+                <td>end</td>
+                <td>match</td>
+                <td>case</td>
+            </tr>
+            <tr>
+                <td>if</td>
+                <td>then</td>
+                <td>else</td>
+                <td>while</td>
+            </tr>
+            <tr>
+                <td>for</td>
+                <td>in</td>
+                <td>step</td>
+                <td>do</td>
+            </tr>
+            <tr class="topborder">
+                <th>Functions and<br>Procedures</th>
+                <td>fun</td>
+                <td>proc</td>
+                <td>return</td>
+                <td>void</td>
+            </tr>
+            <tr class="topborder">
+                <th rowspan="4">Types and<br>Modules</th>
+                <td>type</td>
+                <td>sizeof</td>
+                <td>struct</td>
+                <td>enum</td>
+            </tr>
+            <tr>
+                <td>let</td>
+                <td>mut</td>
+                <td>new</td>
+                <td>delete</td>
+            </tr>
+            <tr>
+                <td>module</td>
+                <td>interface</td>
+                <td>private</td>
+                <td>method</td>
+            </tr>
+            <tr>
+                <td>operator</td>
+                <td>pattern</td>
+            </tr>
+
+        </table>
+    </body>
+</html>
