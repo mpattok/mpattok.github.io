@@ -24,6 +24,12 @@ body {
     border-radius: 1em;
 }
 
+.snip {
+    font-family: monospace;
+    background: #333344;
+    color: white;
+}
+
 .bordered, .bordered th, .bordered td {
     border: 1px solid black;
     border-collapse: collapse;
