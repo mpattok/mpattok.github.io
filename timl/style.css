@@ -1,0 +1,46 @@
+html {
+    background: #222233;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: #F0F0F0;
+    width: 70%;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.code {
+    font-family: monospace;
+    background: #333344;
+    color: white;
+    padding: .5em;
+    padding-left: 1em;
+    max-width: 80em;
+    border-radius: 1em;
+}
+
+.bordered, .bordered th, .bordered td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .5em;
+}
+
+.topborder, .topborder th, .topborder td {
+    border-top: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.topborder th {
+    padding-right: 1em;
+}
+
+td {
+    padding-left: .5em;
+    padding-right: .5em;
+}
