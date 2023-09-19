@@ -18,13 +18,13 @@ var events = [
   ["11-13-2023", "Advance Registration Deadline", "0"],
   ["11-23-2023", "Thanksgiving Break", "0"],
   ["11-27-2023", "Classes Resume", "0"],
-  ["11-22-2023", "Winter Break", "0"],
-  ["1-18-2023", "Classes Resume", "0"],
-  ["3-2-2023", "Spring Break", "0"],
-  ["3-11-2023", "Classes Resume", "0"],
-  ["3-25-2023", "Advance Registration Starts", "0"],
-  ["4-8-2023", "Advance Registration Deadline", "0"],
-  ["5-15-2023", "Summer Break Begins", "0"],
+  ["12-22-2023", "Winter Break", "0"],
+  ["1-18-2024", "Classes Resume", "0"],
+  ["3-2-2024", "Spring Break", "0"],
+  ["3-11-2024", "Classes Resume", "0"],
+  ["3-25-2024", "Advance Registration Starts", "0"],
+  ["4-8-2024", "Advance Registration Deadline", "0"],
+  ["5-15-2024", "Summer Break Begins", "0"],
 
 
 
