@@ -12,7 +12,7 @@ var summer = "Summer School 8AM-12PM";
 
 var events = [
 
-  ["10-12-2023", "Fall Break" "0"],
+  ["10-12-2023", "Fall Break", "0"],
   ["10-16-2023", "Classes Resume", "0"],
   ["10-30-2023", "Advance Registration Starts", "0"],
   ["11-13-2023", "Advance Registration Deadline", "0"],
