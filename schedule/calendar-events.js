@@ -11,6 +11,24 @@ var bovard = "Bovard Scholars online 12PM-";
 var summer = "Summer School 8AM-12PM";
 
 var events = [
+
+  ["10-12-2023", "Fall Break" "0"],
+  ["10-16-2023", "Classes Resume", "0"],
+  ["10-30-2023", "Advance Registration Starts", "0"],
+  ["11-13-2023", "Advance Registration Deadline", "0"],
+  ["11-23-2023", "Thanksgiving Break", "0"],
+  ["11-27-2023", "Classes Resume", "0"],
+  ["11-22-2023", "Winter Break", "0"],
+  ["1-18-2023", "Classes Resume", "0"],
+  ["3-2-2023", "Spring Break", "0"],
+  ["3-11-2023", "Classes Resume", "0"],
+  ["3-25-2023", "Advance Registration Starts", "0"],
+  ["4-8-2023", "Advance Registration Deadline", "0"],
+  ["5-15-2023", "Summer Break Begins", "0"],
+
+
+
+  
   ["5-6-2021", "Computer Science A (12 PM)", "0"],
   ["5-10-2021", "Macroeconomics (12 PM)", "0"],
   ["5-12-2021", "Language (8 AM)", "0"],
