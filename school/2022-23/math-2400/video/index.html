@@ -38,6 +38,7 @@
     
   function src_to_title(src) {
     let index_a = src.indexOf("<title>") + 7;
+    src = src.slice(index_a);
     let index_b = src.indexOf("</title>");
     return src.substring(index_a, index_b);
   }
