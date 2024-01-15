@@ -26,9 +26,9 @@
     
   <script>
 
-  let doc_title = document.title;
+  const doc_title = document.title;
   
-  let parse_slashes = str => str.replace(/\\\//g, "/");
+  const parse_slashes = str => str.replace(/\\\//g, "/");
 
   function src_to_link(src) {
     let index_a = src.indexOf("VideoUrl") + 11;
@@ -39,9 +39,8 @@
     
   function src_to_title(src) {
     let index_a = src.indexOf("<title>") + 7;
-    src = src.slice(index_a);
-    let index_b = src.indexOf("</title>");
-    return src.substring(index_a, index_b);
+    let index_b = src.slice(index_a).indexOf("</title>");
+    return src.substring(index_a, index_a + index_b);
   }
 
   function get_link() {
