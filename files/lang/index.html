@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mattlang</title>
+<style>
+.bordered, .bordered > tbody > tr > th, .bordered > tbody > tr > td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.bordered > tbody > tr > td {
+  width: 2em;
+  height: 2em;
+  text-align: center;
+}
+@font-face {
+  font-family: mattlang;
+  src: url('mattlang3.ttf');
+}
+.bordered > tbody > tr > td:first-child {
+  font-family: mattlang;
+}
+.ml {
+  font-family: mattlang;
+  letter-spacing: -0.2em;
+  word-spacing: 0.5em;
+}
+</style>
+</head>
+<body>
+
+<table class="bordered">
+<tbody>
+<tr>
+<th></th> <th>b</th> <th>m</th> <th>e</th> <th>v</th>
+</tr>
+<tr>
+<td>1</td> <td>t</td> <td>r</td> <td>k</td> <td></td>
+</tr>
+<tr>
+<td>2</td> <td></td> <td></td> <td></td> <td>a</td>
+</tr>
+<tr>
+<td>3</td> <td>f</td> <td>b</td> <td>m</td> <td></td>
+</tr>
+<tr>
+<td>4</td> <td>s</td> <td>j</td> <td>n</td> <td></td>
+</tr>
+<tr>
+<td>5</td> <td></td> <td></td> <td></td> <td>e</td>
+</tr>
+<tr>
+<td>6</td> <td></td> <td></td> <td></td> <td>i</td>
+</tr>
+<tr>
+<td>7</td> <td></td> <td></td> <td></td> <td>u</td>
+</tr>
+<tr>
+<td>8</td> <td></td> <td></td> <td></td> <td>ai</td>
+</tr>
+</tbody>
+</table>
+
+<h3><span class="ml">12345678 34471</span> <-- not legal words just messing with the font </h3>
+
+word = bv(mv)*[e]
+<br><br>
+# possible words up to 3 syllables: 14,460
+
+<h3><span class="ml">1235461</span> that is a valid word pronounced like tabejik (tah-bay-jeek)</h3>
+
+but it could also be pronounced daveshik without changed meaning. most consonants can be pronounced with several different sounds. for instance 'r' is any R or L sound. this is to make the language easier to pronounce for people whose original language may not have some particular sound. i will work out exactly which sounds are valid for which letters in more detail later
+
+</body>
+</html>
