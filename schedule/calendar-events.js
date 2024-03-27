@@ -12,6 +12,15 @@ var summer = "Summer School 8AM-12PM";
 
 var events = [
 
+  ["5-10-2024", "CIS 3200 Final Exam<br>9-11AM<br>CHEM 102 or CHEM 109", "0"],
+  ["5-9-2024", "CIS 4710 Final Exam <br>12-2PM<br>LEVH 101 or CHEM 102", "0"],
+  ["5-13-2024", "ESE 1120 Final Exam<br>12-2PM<br>CHEM 102", "0"],
+  ["5-8-2024", "MATH 3130 Final Exam<br>6-8PM<br>ANNS 110", "0"],
+  
+  ["4-3-2-2024", "CIS 3200 Exam 2", "0"],
+  ["3-28-2024", "ESE 1120 Quiz 2", "0"],
+  
+
   ["10-12-2023", "Fall Break", "0"],
   ["10-16-2023", "Classes Resume", "0"],
   ["10-30-2023", "Advance Registration Starts", "0"],
