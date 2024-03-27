@@ -17,7 +17,7 @@ var events = [
   ["5-13-2024", "ESE 1120 Final Exam<br>12-2PM<br>CHEM 102", "0"],
   ["5-8-2024", "MATH 3130 Final Exam<br>6-8PM<br>ANNS 110", "0"],
   
-  ["4-3-2-2024", "CIS 3200 Exam 2", "0"],
+  ["4-3-2024", "CIS 3200 Exam 2", "0"],
   ["3-28-2024", "ESE 1120 Quiz 2", "0"],
   
 
