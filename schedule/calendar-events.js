@@ -2,6 +2,8 @@
   format: [["DATE CODE","EVENT INFO",TRUE/FALSE],...]
   TRUE/FALSE refers to whether or not an event goes on list schedule (joke items like "Wish Matt a happy birthday :)" would have false for that value)
   format: [["DATE CODE", "EVENT INFO", "REPEAT CODE"],...]
+  date code format: M-D-Y
+  repeat code format: COUNT-MONTHS-DAYS-YEARS (the event happens COUNT times, with the specified gap)
 */
 
 var may25 = `<ul style='margin:0;padding:0;padding-left:15px'><li>CLP Exam 9:30, leave 8 AM. Montcalm Community College, 1325 Yellow Jacket Dr, Ash TLC Building, Greenville, MI</li><li>Graduation Practice on field 1:30 PM</li><li>Honors Night PAC 7 PM</li></ul>`;
@@ -11,6 +13,20 @@ var bovard = "Bovard Scholars online 12PM-";
 var summer = "Summer School 8AM-12PM";
 
 var events = [
+
+  ["9-3-2024", "Labor Day (no class)", "0"],
+  ["10-3-2024", "Fall Break", "4-0-1-0"],
+  ["10-28-2024", "Advance Registration Opens", "0"],
+  ["11-11-2024", "Advance Registration Ends", "0"],
+  ["11-28-2024", "Thanksgiving Break", "4-0-1-0"],
+  ["12-9-2024", "Last day of class", "0"],
+
+  ["1-15-2025", "First day of class", "0"],
+  ["1-20-2025", "MLK Jr Day (no class)", "0"],
+  ["3-8-2025", "Spring Break", "9-0-1-0"],
+  ["3-24-2025", "Advance Registration Opens", "0"],
+  ["4-7-2025", "Advance Registration Ends", "0"],
+  ["4-30-2025", "Last day of class", "0"],
 
   ["5-10-2024", "CIS 3200 Final Exam<br>9-11AM<br>CHEM 102 or CHEM 109", "0"],
   ["5-9-2024", "CIS 4710 Final Exam <br>12-2PM<br>LEVH 101 or CHEM 102", "0"],
