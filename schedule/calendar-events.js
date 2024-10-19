@@ -14,6 +14,9 @@ var summer = "Summer School 8AM-12PM";
 
 var events = [
 
+  ["12-12-2024", "CIS 5000 Final<br>12-2PM LRSM AUD", "0"],
+  ["12-18-2024", "ECON 4430 Final<br>12-2PM ANNS 111", "0"],
+
   ["9-3-2024", "Labor Day (no class)", "0"],
   ["10-3-2024", "Fall Break", "4-0-1-0"],
   ["10-28-2024", "Advance Registration Opens", "0"],
