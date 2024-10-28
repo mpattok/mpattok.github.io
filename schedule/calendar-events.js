@@ -21,6 +21,8 @@ var events = [
   ["10-3-2024", "Fall Break", "4-0-1-0"],
   ["10-28-2024", "Advance Registration Opens", "0"],
   ["11-11-2024", "Advance Registration Ends", "0"],
+  ["11-26-2024", "Thursday classes", "0"],
+  ["11-27-2024", "Friday classes", "0"],
   ["11-28-2024", "Thanksgiving Break", "4-0-1-0"],
   ["12-9-2024", "Last day of class", "0"],
 
