@@ -14,7 +14,6 @@
     width: 8.5in;
     padding: 0.5in;
     padding-top: 0;
-    min-height: 1vh;
     font-size: 12pt;
     font-family: verdana;
   }
@@ -34,9 +33,23 @@
   td:nth-child(2) {
     text-align: right;
   }
+  @media print {
+    .web {
+      display: none;
+    }
+  }
 </style>
 </head>
 <body>
+
+<div class="web">
+  <hr>
+  <center>
+    <a href="Matthew Pattok - Resume.pdf">PDF</a>
+  </center>
+  <hr>
+</div>
+
 <center>
   <h2>Matthew Pattok</h2>
   <b>Student - University of Pennsylvania - School of Engineering and Applied Science</b><br>
@@ -81,7 +94,7 @@
 <center><h3>Skills</h3></center>
 <ul>
   <li><b>Programming Languages:</b> JavaScript/TypeScript, OCaml, C, Python, Java, C#, Bash</li>
-  <li><b>Development Tools:</b> Git & GitHub, Docker, gdb</li>
+  <li><b>Development:</b> Git & GitHub, Docker, gdb, React.js, Express.js, MongoDB</li>
   <li><b>Other Tools:</b> GIMP, Microsoft Office, Google Drive, Adobe Premiere Elements</li>
 </ul>
 
@@ -115,9 +128,8 @@
       <b>Haskell Prisma (in progress)</b><br>
       GitHub: <a href="https://github.com/brianbob12/haskell-prisma">https://github.com/brianbob12/haskell-prisma</a>
       <ul>
-        <li>Pair programming project</li>
-        <li>Haskell Generator for Prisma ORM</li>
-        <li>Parses schema.prisma file and outputs Haskell module</li>
+        <li>Pair programming project: Haskell generator for Prisma ORM</li>
+        <li>Parses schema.prisma file and outputs Haskell code in module file</li>
         <li>Supports SQLite, implements basic CRUD operations</li>
       </ul>
       <br>
@@ -131,7 +143,7 @@
       <b>Webapp Project - SkillExchange</b><br>
       GitHub: <a href="https://github.com/cis350/group-project-team-15">https://github.com/cis350/group-project-team-15</a>
       <ul>
-        <li>Worked in team rotating Agile roles (Project Lead, Dev, UI, Devops)</li>
+        <li>Worked in team rotating Agile roles (Project Lead, Dev, UI, DevOps)</li>
         <li>Implemented frontend with React</li>
         <li>Implemented backend with MongoDB and Express</i>
         <li>Tested project with Jest</i>
