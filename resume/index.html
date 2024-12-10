@@ -3,6 +3,10 @@
 <head>
 <title>Matthew Pattok - Resume</title>
 <style>
+  @font-face {
+    font-family: NimbusRoman;
+    src: url("NimbusRoman-Regular.otf");
+  }
   html {
     display: flex;
     flex-direction: column;
@@ -15,7 +19,7 @@
     padding: 0.5in;
     padding-top: 0;
     font-size: 12pt;
-    font-family: verdana;
+    font-family: NimbusRomans;
   }
   h2, h3, b, ul, li {
     margin: 0;
@@ -23,15 +27,17 @@
   }
   ul li {
     list-style-position: inside;
+    padding-left: 15px;
+    text-indent: -15px;
   }
-  td {
-    vertical-align: top;
+  .exp {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
-  td:first-child {
-    width: 70%;
-  }
-  td:nth-child(2) {
+  .exp div:nth-child(2) {
     text-align: right;
+    width: 3.5in;
   }
   a {
     color: blue;
@@ -55,96 +61,90 @@
 
 <center>
   <h2>Matthew Pattok</h2>
-  <b>Student - University of Pennsylvania - School of Engineering and Applied Science</b><br>
+  <b>University of Pennsylvania - School of Engineering and Applied Science</b><br>
   pattok.matt@gmail.com - (269) 804-8708
 </center>
 
 <hr>
 
-<center><h3>Education</h3></center>
-<table>
-  <tr>
-    <td>
-      <b>University of Pennsylvania (in progress)</b><br>
-      <i>Computer Science, BSE</i>. Concentration: Software Foundations<br>
-      Second major in Philosophy. Concentration: Political and Moral <br>
-      Mathematics Minor
-    </td>
-    <td>
-      Expected Graduation May 2026<br>
-      <i>Philadelphia, PA</i><br>
-      <i>GPA: 3.51 / 4.0</i>
-    </td>
-  </tr>
-  <!--
-  <tr>
-    <td>
-      <b>Hastings High School</b><br>
-      <i>High School Diploma</i><br>
-      National Honor Society (11-12), High Honor Roll (9-12), <br>
-      Math Award (10,12), Science Award (9,11,12), Social Studies Award (12)
-    </td>
-    <td>
-      Graduated May 2022<br>
-      <i>Hastings, MI</i><br>
-      <i>GPA: 4.22 / 4.0</i>
-    </td>
-  </tr> -->
-</table>
+<h3>Work Experience</h3>
+<div class="exp">
+  <div>
+    <b>Univeristy of Pennsylvania</b><br>
+    <i>Teaching Assistant</i><br>
+    <ul>
+      <li>TA'd for CIS 2400 (Introduction to Computer Systems)</li>
+      <li>Held office hours to help students understand course and homework</li>
+      <li>Graded written and programming assignments</li>
+      <li>Wrote Bash and JS to aid learning and grading</li>
+    </ul>
+  </div>
+  <div>
+    August 2023 - August 2024
+  </div>
+</div>
 
-<hr>
+<br>
 
-<center><h3>Skills</h3></center>
+<h3>Education</h3>
+<div class="exp">
+  <div>
+    <b>University of Pennsylvania</b><br>
+    Majoring in Computer Science (BSE), with a second major in Philosophy and a minor in Mathematics.
+  </div>
+  <div>
+    Expected Graduation May 2026<br>
+    <i>Philadelphia, PA</i><br>
+    <i>GPA: 3.51 / 4.0</i>
+  </div>
+</div>
+<!--<br>
+<div class="exp">
+  <div>
+    <b>Hastings High School</b><br>
+    <i>High School Diploma</i><br>
+    National Honor Society (11-12), High Honor Roll (9-12), <br>
+    Math Award (10,12), Science Award (9,11,12), Social Studies Award (12)
+  </div>
+  <div>
+    Graduated May 2022<br>
+    <i>Hastings, MI</i><br>
+    <i>GPA: 4.22 / 4.0</i>
+  </div>
+</div> -->
+
+<br>
+
+<h3>Skills</h3>
 <ul>
   <li><b>Programming Languages:</b> JavaScript/TypeScript, OCaml, C, Python, Java, C#, Bash</li>
-  <li><b>Development:</b> Git & GitHub, Docker, gdb, React.js, Express.js, MongoDB</li>
+  <li><b>Development:</b> Git & GitHub, Docker, gdb, React.js, Express.js, SQL, MongoDB</li>
   <li><b>Other Tools:</b> GIMP, Microsoft Office, Google Drive, Adobe Premiere Elements</li>
 </ul>
 
-<hr>
+<br>
 
-<center><h3>Work Experience</h3></center>
-<table>
-  <tr>
-    <td>
-      <b>University of Pennsylvania</b><br>
-      <i>Teaching Assistant</i><br>
-      CIS 2400: Introduction to Computer Systems
+<h3>Projects</h3>
+<div class="exp">
+  <div>
+      <b>Haskell Prisma</b><br>
+      <!--GitHub: <a href="https://github.com/brianbob12/haskell-prisma">https://github.com/brianbob12/haskell-prisma</a>-->
       <ul>
-        <li>Held office hours to help students understand course and homework</li>
-        <li>Graded written and programming assignments</li>
-        <li>Wrote Bash and JS to aid learning and grading</li>
-      </ul>
-    </td>
-    <td>
-      August 2023 - August 2024
-    </td>
-  </tr>
-</table>
-
-<hr>
-
-<center><h3>Projects</h3></center>
-<table>
-  <tr>
-    <td>
-      <b>Haskell Prisma (in progress)</b><br>
-      GitHub: <a href="https://github.com/brianbob12/haskell-prisma">https://github.com/brianbob12/haskell-prisma</a>
-      <ul>
-        <li>Pair programming project: Haskell generator for Prisma ORM</li>
-        <li>Parses schema.prisma file and outputs Haskell code in module file</li>
-        <li>Supports SQLite, implements basic CRUD operations</li>
+        <li>Used pair programming to create a Haskell generator for the Prisma ORM database tool</li>
+        <li>Created a parser for a schema and a generator for Haskell modules</li>
+        <li>Developed support for SQLite, implementing basic CRUD operations</li>
       </ul>
       <br>
-    </td>
-    <td>
+  </div>
+  <div>
       Fall 2024
-    </td>
-  </tr>
-  <tr>
-    <td>
+  </div>
+</div>
+
+<div class="exp">
+  <div>
       <b>Webapp Project - SkillExchange</b><br>
-      GitHub: <a href="https://github.com/cis350/group-project-team-15">https://github.com/cis350/group-project-team-15</a>
+      <!--GitHub: <a href="https://github.com/cis350/group-project-team-15">https://github.com/cis350/group-project-team-15</a>-->
       <ul>
         <li>Worked in team rotating Agile roles (Project Lead, Dev, UI, DevOps)</li>
         <li>Implemented frontend with React</li>
@@ -152,26 +152,25 @@
         <li>Tested project with Jest</i>
       </ul>
       <br>
-    </td>
-    <td>
+  </div>
+  <div>
       Spring 2024
-    </td>
-  </tr>
-  <tr>
-    <td style="width:7in">
+  </div>
+</div>
+
+<div class="exp">
+  <div>
       <b>Hardware Design for RISC-V</b><br>
-      GitHub: <a href="https://github.com/pattokseas/cis4710">https://github.com/pattokseas/cis4710</a>
+      <!--GitHub: <a href="https://github.com/pattokseas/cis4710">https://github.com/pattokseas/cis4710</a>-->
       <ul>
         <li>Used SystemVerilog to implement the RV32IM specification</li>
-        <li>5-stage pipeline: fetch, decode, execute, memory access, writeback</li>
-        <li>AXI4-Lite memory interface</li>
+        <li>Implemented 5-stage pipeline and AXI4-Lite memory interface</li>
       </ul>
-    </td>
-    <td>
+  </div>
+  <div>
       Spring 2024
-    </td>
-  </tr>
-</table>
+  </div>
+</div>
 
 </body>
 </html>
