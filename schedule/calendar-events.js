@@ -6,13 +6,19 @@
   repeat code format: COUNT-MONTHS-DAYS-YEARS (the event happens COUNT times, with the specified gap)
 */
 
-var may25 = `<ul style='margin:0;padding:0;padding-left:15px'><li>CLP Exam 9:30, leave 8 AM. Montcalm Community College, 1325 Yellow Jacket Dr, Ash TLC Building, Greenville, MI</li><li>Graduation Practice on field 1:30 PM</li><li>Honors Night PAC 7 PM</li></ul>`;
+const may25 = `<ul style='margin:0;padding:0;padding-left:15px'><li>CLP Exam 9:30, leave 8 AM. Montcalm Community College, 1325 Yellow Jacket Dr, Ash TLC Building, Greenville, MI</li><li>Graduation Practice on field 1:30 PM</li><li>Honors Night PAC 7 PM</li></ul>`;
 
-var parking = "Ace Parking 6:30-7:30 PM";
-var bovard = "Bovard Scholars online 12PM-";
-var summer = "Summer School 8AM-12PM";
+const parking = "Ace Parking 6:30-7:30 PM";
+const bovard = "Bovard Scholars online 12PM-";
+const summer = "Summer School 8AM-12PM";
+
+const hw = (course, due) => "<br>" + course + " </br> HW due " + due;
 
 var events = [
+
+  ["1-17-2025", hw("PHIL 1710", "8:30 AM"), "7-0-7-0"],
+  ["3-21-2025", hw("PHIL 1710", "8:30 AM"), "4-0-7-0"],
+  ["4-22-2025", hw("PHIL 1710", "8:30 AM"), "2-0-3-0"],
 
   ["12-12-2024", "CIS 5000 Final<br>12-2PM LRSM AUD", "0"],
   ["12-18-2024", "ECON 4430 Final<br>12-2PM ANNS 111", "0"],
