@@ -12,9 +12,14 @@ const parking = "Ace Parking 6:30-7:30 PM";
 const bovard = "Bovard Scholars online 12PM-";
 const summer = "Summer School 8AM-12PM";
 
-const hw = (course, due) => "<br>" + course + " </br> HW due " + due;
+const hw = (course, due) => "<b>" + course + " </b> HW due " + due;
 
 var events = [
+
+  ["1-29-2025", hw("CIS 4190", "8PM"), "3-0-14-0"],
+  ["3-3-2025", hw("CIS 4190", "8PM"), "0"],
+  ["3-26-2025", hw("CIS 4190", "8PM"), "2-0-7-0"],
+  ["4-16-2025", hw("CIS 4190", "8PM"), "2-0-7-0"],
 
   ["1-17-2025", hw("PHIL 1710", "8:30 AM"), "7-0-7-0"],
   ["3-21-2025", hw("PHIL 1710", "8:30 AM"), "4-0-7-0"],
