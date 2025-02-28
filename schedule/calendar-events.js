@@ -13,8 +13,14 @@ const bovard = "Bovard Scholars online 12PM-";
 const summer = "Summer School 8AM-12PM";
 
 const hw = (course, due) => "<b>" + course + " </b> HW due " + due;
+const exam = (course, time, location) => "<b>" + course + " Exam</b><br>" + time + " " + location;
 
 var events = [
+
+  ["3-5-2025", exam("CIS 4190", "In class", ""), "0"],
+  ["3-4-2025", exam("CIS 5450", "In class", ""), "0"],
+  ["3-6-2025", exam("CIS 4521", "In class", ""), "0"],
+  ["3-4-2025", exam("PHIL 1710", "In class", ""), "0"],
 
   ["1-29-2025", hw("CIS 4190", "8PM"), "3-0-14-0"],
   ["3-3-2025", hw("CIS 4190", "8PM"), "0"],
