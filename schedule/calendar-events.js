@@ -17,6 +17,11 @@ const exam = (course, time, location) => "<b>" + course + " Exam</b><br>" + time
 
 var events = [
 
+  ["4-30-2025", exam("CIS 4190", "In class", ""), "0"],
+  ["5-8-2025", exam("CIS 4521", "12-2PM", "TOWN 100"), "0"],
+  ["5-6-2025", exam("CIS 5450", "3-5PM", "Location TBA"), "0"],
+  ["5-12-2025", exam("PHIL 1710", "9-11AM", "COLL 200"), "0"],
+
   ["3-5-2025", exam("CIS 4190", "In class", ""), "0"],
   ["3-4-2025", exam("CIS 5450", "In class", ""), "0"],
   ["3-6-2025", exam("CIS 4521", "In class", ""), "0"],
