@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>schedule</title>
-</head>
-<body></body>
-<script src="../builder.js"></script>
-<script>
-setTimeout( function() {
-  if(document.body.innerHTML == "" ) {
-    location.reload();
-  }
-}, 1000);
-</script>
+  <head>
+    <title>Schedule - Matthew Pattok</title>
+  </head>
+  <body>
+    <div width="100%" style="text-align: center;">
+      <div class="calendarClass" style="display: inline-block; width: 80%"></div>
+    </div>
+    <noscript>
+      This page uses JavaScript. You can view the event list that would normally be loaded
+      <a href="calendar-events.js">here</a>
+    </noscript>
+  </body>
+  <script src="calendar-events.js"></script>
+  <script src="calendar-script.js"></script>
 </html>
